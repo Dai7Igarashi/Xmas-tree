@@ -1,0 +1,14 @@
+.tree-container {
+  position: relative;
+  width: 240px;
+  height: 360px;
+  z-index: 2;
+}
+
+.tree-edge {
+  overflow: visible;
+  stroke: green;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
