@@ -1,8 +1,22 @@
 .tree-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   width: 240px;
-  height: 360px;
+  height: 288px;
   z-index: 2;
+}
+
+.tree-body {
+  width: 234px;
+  height: 222px;
+}
+
+.tree-base {
+  width: 43px;
+  height: 66px;
 }
 
 .tree-edge {

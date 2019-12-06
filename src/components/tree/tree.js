@@ -3,46 +3,64 @@ import { useState } from "react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import "./tree.css";
 
-export const Tree = () => {
-  const tree = {
+export const Tree = isDrow => {
+  const body = {
     hidden: {
       opacity: 0,
       pathLength: 0,
-      fill: "rgba(255, 255, 255, 0)"
+      fill: "rgba(2, 135, 96, 0)"
     },
     visible: {
       opacity: 1,
       pathLength: 1,
-      fill: "rgba(255, 255, 255, 1)"
+      fill: "rgba(2, 135, 96, 1)"
+    }
+  };
+  const base = {
+    hidden: {
+      opacity: 0,
+      pathLength: 0,
+      fill: "rgba(115, 78, 48, 0)"
+    },
+    visible: {
+      opacity: 1,
+      pathLength: 1,
+      fill: "rgba(115, 78, 48, 1)"
     }
   };
   return (
     <div className="tree-container">
       <motion.svg
+        className="tree-body"
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 240 360"
-        className="tree-edge"
-        variants={tree}
-        initial="hidden"
-        animate="visible"
-        transition={{
-          duration: 2,
-          ease: "easeInOut",
-          loop: Infinity,
-          repeatDelay: 2
-        }}
+        viewBox="0 0 234 222"
       >
         <motion.path
-          d="M105.64 60.26L107.18 42.82L96.41 31.03L112.82 30L120 13.59L128.21 30L142.56 32.56L131.28 43.85L134.36 60.26L123.08 55.13L147.69 87.95L162.05 106.92L179.49 125.9L150.26 126.92L174.36 160.26L198.46 186.41L213.85 200.77L179.49 200.77L196.41 225.9L216.92 250.51L235.38 271.03L131.28 271.03L141.03 337.98L98.97 336.15L108.72 269.49L5.13 269.49L31.28 242.31L44.62 224.36L61.03 200.77L26.15 200.77L42.56 186.41L58.97 167.95L76.41 147.95L90.77 126.92L61.03 126.92L73.85 111.54L92.31 87.95L120 51.54L105.64 60.26Z"
-          variants={tree}
+          d="M140.93 32.47L154.78 49.39L168.57 66.88L177.28 76.47L147.28 76.47L156.16 90.01L167.44 103.9L183.23 123.85L199.78 140.21L213.13 150.93L177.28 150.93L184.78 164.46L197.9 182.65L217.08 205.15L234 222L0.48 222L19.78 202.26L42.28 174.05L58.57 150.93L21.35 150.93L32.63 141.9L46.73 127.8L63.09 108.62L76.06 92.65L87.28 75.91L57.28 75.91L73.8 57.29L88.47 38.11L117.28 -0.24L140.93 32.47Z"
+          variants={body}
           initial="hidden"
           animate="visible"
           transition={{
             duration: 2,
             ease: "easeInOut",
-            fill: { duration: 2, yoyo: Infinity },
-            yoyo: Infinity,
-            repeatDelay: 1
+            fill: { duration: 2 }
+          }}
+        />
+      </motion.svg>
+      <motion.svg
+        className="tree-base"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 43 66"
+      >
+        <motion.path
+          d="M33.16 0L43 66.35L0.38 66.35L10.21 0L33.16 0Z"
+          variants={base}
+          initial="hidden"
+          animate="visible"
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            fill: { duration: 2 }
           }}
         />
       </motion.svg>
