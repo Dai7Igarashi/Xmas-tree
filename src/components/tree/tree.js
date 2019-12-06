@@ -28,7 +28,7 @@ export const Tree = () => {
         transition={{
           duration: 2,
           ease: "easeInOut",
-          yoyo: Infinity,
+          loop: Infinity,
           repeatDelay: 2
         }}
       >
