@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Xmas.css";
 import Tree from "./components/tree";
 import Star from "./components/star";
+import Merry from "./components/merry";
 
 const Xmas = () => {
   const [canTrans, setCanTrans] = useState(true);
@@ -32,6 +33,7 @@ const Xmas = () => {
     <div className="Xmas">
       <Star handleTap={handleTap} />
       <Tree isVisible={isVisible} />
+      <Merry isVisible={isVisible} />
     </div>
   );
 };
