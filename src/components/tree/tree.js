@@ -51,7 +51,7 @@ export const Tree = ({ isVisible }) => {
     <div className="tree-container">
       <motion.svg
         className="tree-body"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
         viewBox="0 0 234 222"
       >
         <motion.path
@@ -64,7 +64,7 @@ export const Tree = ({ isVisible }) => {
       </motion.svg>
       <motion.svg
         className="tree-base"
-        xmlns="http://www.w3.org/2000/svg"
+        xmlns="https://www.w3.org/2000/svg"
         viewBox="0 0 43 66"
       >
         <motion.path
