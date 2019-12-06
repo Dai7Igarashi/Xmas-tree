@@ -1,17 +1,14 @@
 import * as React from "react";
-import { useState } from "react";
-import { motion, useMotionValue, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import "./star.css";
 
-export const Star = () => {
+export const Star = ({ handleTap }) => {
   return (
     <motion.div
       className="star-container"
       whileHover={{ scale: 1.2 }}
       whileTap={{ scale: 0.8 }}
-      onTap={() => {
-        console.log("Taped");
-      }}
+      onTap={handleTap}
     >
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"

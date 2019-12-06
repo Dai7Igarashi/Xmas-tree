@@ -1,5 +1,6 @@
 .tree-container {
   position: relative;
+  top: -20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -19,10 +20,18 @@
   height: 66px;
 }
 
-.tree-edge {
+.tree-body-stroke,
+.tree-base-stroke {
   overflow: visible;
-  stroke: green;
-  stroke-width: 2;
+  stroke-width: 1.5;
   stroke-linejoin: round;
   stroke-linecap: round;
+}
+
+.tree-body-stroke {
+  stroke: #00552e;
+}
+
+.tree-base-stroke {
+  stroke: #331414;
 }
