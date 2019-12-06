@@ -1,7 +1,7 @@
 {
   "name": "react-design-sample",
   "version": "0.1.0",
-  "homepage": "https://dai7igarashi.github.io/Xmas-tree/",
+  "homepage": "https://dai7igarashi.github.io/Xmas-tree",
   "private": true,
   "dependencies": {
     "framer-motion": "^1.6.17",
