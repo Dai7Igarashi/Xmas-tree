@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b359240.chunk.css",
-    "main.js": "/static/js/main.c8ab88dd.chunk.js",
-    "main.js.map": "/static/js/main.c8ab88dd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c26c56ee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c26c56ee.js.map",
-    "static/js/2.8abdfa35.chunk.js": "/static/js/2.8abdfa35.chunk.js",
-    "static/js/2.8abdfa35.chunk.js.map": "/static/js/2.8abdfa35.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ab1300db28df29728c40bcbea84d5dc1.js": "/precache-manifest.ab1300db28df29728c40bcbea84d5dc1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0b359240.chunk.css.map": "/static/css/main.0b359240.chunk.css.map",
-    "static/js/2.8abdfa35.chunk.js.LICENSE": "/static/js/2.8abdfa35.chunk.js.LICENSE"
+    "main.css": "/Xmas-tree/static/css/main.0b359240.chunk.css",
+    "main.js": "/Xmas-tree/static/js/main.0e00f167.chunk.js",
+    "main.js.map": "/Xmas-tree/static/js/main.0e00f167.chunk.js.map",
+    "runtime-main.js": "/Xmas-tree/static/js/runtime-main.1f3e0156.js",
+    "runtime-main.js.map": "/Xmas-tree/static/js/runtime-main.1f3e0156.js.map",
+    "static/js/2.8abdfa35.chunk.js": "/Xmas-tree/static/js/2.8abdfa35.chunk.js",
+    "static/js/2.8abdfa35.chunk.js.map": "/Xmas-tree/static/js/2.8abdfa35.chunk.js.map",
+    "index.html": "/Xmas-tree/index.html",
+    "precache-manifest.0aff8c06dc55ccdb18f7cc7e8ef774cb.js": "/Xmas-tree/precache-manifest.0aff8c06dc55ccdb18f7cc7e8ef774cb.js",
+    "service-worker.js": "/Xmas-tree/service-worker.js",
+    "static/css/main.0b359240.chunk.css.map": "/Xmas-tree/static/css/main.0b359240.chunk.css.map",
+    "static/js/2.8abdfa35.chunk.js.LICENSE": "/Xmas-tree/static/js/2.8abdfa35.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c26c56ee.js",
+    "static/js/runtime-main.1f3e0156.js",
     "static/js/2.8abdfa35.chunk.js",
     "static/css/main.0b359240.chunk.css",
-    "static/js/main.c8ab88dd.chunk.js"
+    "static/js/main.0e00f167.chunk.js"
   ]
 }
